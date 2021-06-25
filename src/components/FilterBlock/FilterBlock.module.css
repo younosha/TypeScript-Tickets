@@ -1,0 +1,37 @@
+.container {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  width: fit-content;
+  height: fit-content;
+  position: fixed;
+}
+.selectItem {
+  display: flex;
+  align-items: center;
+}
+.money {
+  background: transparent;
+  border: 1px solid #1e90ff;
+  border-radius: 3px;
+  color: #1e90ff;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 2px;
+}
+.moneyActive {
+  background: #1e90ff;
+  border: 1px solid #1e90ff;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 2px;
+}
+.buttonsWrapper {
+  margin-left: -2px;
+}
+.stop {
+  margin-left: 5px;
+}

@@ -1,0 +1,50 @@
+.wrapper {
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.leftPart {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid grey;
+  height: 131px;
+}
+.buttonBuy {
+  background-color: #ff6229;
+  border: 1px solid #ff6229;
+  border-radius: 5px;
+  padding: 10px 0px;
+  color: white;
+  width: 150px;
+  height: 38px;
+  cursor: pointer;
+}
+.rightPart {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.lines {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: grey;
+}
+.arrow {
+  margin-top: -20px;
+}
+.date {
+  color: grey;
+}
+.time {
+  font-weight: bold;
+  font-size: 20px;
+}
